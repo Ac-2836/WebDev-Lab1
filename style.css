@@ -53,3 +53,18 @@ body {
   border-radius: 8px;
   padding: 1.5rem;
 }
+
+.skills-matrix {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.75rem;
+}
+
+.badge {
+  background: var(--accent);
+  color: var(--bg-primary);
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  text-align: center;
+  font-size: 0.875rem;
+}
