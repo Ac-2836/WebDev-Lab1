@@ -19,7 +19,7 @@ body {
 :root {
   --bg-primary: #ffffff;
   --text-primary: #0f172a;
-  --accent: #0284c7;
+  --accent: #0277c7;
   --card-bg: #f8fafc;
 }
 
@@ -55,7 +55,7 @@ body.light-theme {
   color-scheme: light;
   --bg-primary: #ffffff;
   --text-primary: #0f172a;
-  --accent: #0284c7;
+  --accent: #0277c7;
   --card-bg: #f8fafc;
   --border-color: #e2e8f0;
 }
