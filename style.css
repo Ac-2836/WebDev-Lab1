@@ -82,3 +82,35 @@ body {
   0% { background-position: 200% 0; }
   100% { background-position: -200% 0; }
 }
+
+/* SUB-TASK T-03B: Live Data State */
+#status-demo .state-loading,
+#status-demo .state-live {
+  display: none;
+}
+
+#status-demo[data-state="loading"] .state-loading {
+  display: block;
+}
+
+#status-demo[data-state="live"] .state-live {
+  display: grid;
+  gap: 1rem;
+}
+
+.status-list {
+  list-style: none;
+}
+
+.status-item {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.status-meta {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
