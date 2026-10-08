@@ -12,6 +12,8 @@ html {
 body {
   font-family: system-ui, -apple-system, sans-serif;
   line-height: 1.6;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 :root {
@@ -38,6 +40,24 @@ body {
   :root {
     --border-color: #334155;
   }
+}
+
+body.dark-theme {
+  color-scheme: dark;
+  --bg-primary: #0f172a;
+  --text-primary: #f8fafc;
+  --accent: #38bdf8;
+  --card-bg: #1e293b;
+  --border-color: #334155;
+}
+
+body.light-theme {
+  color-scheme: light;
+  --bg-primary: #ffffff;
+  --text-primary: #0f172a;
+  --accent: #0284c7;
+  --card-bg: #f8fafc;
+  --border-color: #e2e8f0;
 }
 
 .project-grid {
