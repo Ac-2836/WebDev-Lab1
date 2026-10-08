@@ -23,32 +23,52 @@
     </ul>
   </nav>
   <main id="main-content" role="main">
-  <section id="about">
-  <img
-    src="assets/avatar.webp"
-    alt="Portrait of Senior Developer"
-    width="400"
-    height="400"
-    loading="lazy"
-    decoding="async">
-    <h2>Senior Frontend Engineer building accessible, performant web experiences.</h2>
-    <p>I design and build modern, standards-compliant interfaces with vanilla HTML5, CSS and JavaScript — no frameworks, no shortcuts.</p>
+    <section id="about">
+      <img
+        src="assets/avatar.webp"
+        alt="Portrait of Senior Developer"
+        width="400"
+        height="400"
+        loading="lazy"
+        decoding="async">
+      <h2>Senior Frontend Engineer building accessible, performant web experiences.</h2>
+      <p>I design and build modern, standards-compliant interfaces with vanilla HTML5, CSS and JavaScript — no frameworks, no shortcuts.</p>
+
+      <h2>Skills</h2>
+      <div class="skills-matrix">
+        <span class="badge">HTML5</span>
+        <span class="badge">CSS Grid</span>
+        <span class="badge">Flexbox</span>
+        <span class="badge">JavaScript ES6+</span>
+        <span class="badge">Accessibility</span>
+        <span class="badge">Git</span>
+      </div>
     </section>
+
     <section id="projects" class="project-grid">
-        <article class="project-card">...</article>
-        <article class="project-card">...</article>
-        <h2>Skills</h2>
-    <div class="skills-matrix">
-    <span class="badge">HTML5</span>
-    <span class="badge">CSS Grid</span>
-    <span class="badge">Flexbox</span>
-    <span class="badge">JavaScript ES6+</span>
-    <span class="badge">Accessibility</span>
-    <span class="badge">Git</span>
-    </div>
+      <article class="project-card" data-category="frontend">
+        <header class="card-header">
+          <h3>Distributed State Engine</h3>
+          <span class="badge">TypeScript</span>
+        </header>
+        <p>Lightweight event bus built without external libraries.</p>
+        <footer class="card-footer">
+          <a href="#" aria-label="View State Engine repository">Source Code</a>
+        </footer>
+      </article>
+
+      <article class="project-card" data-category="frontend">
+        <header class="card-header">
+          <h3>Accessible Component Library</h3>
+          <span class="badge">Vanilla JS</span>
+        </header>
+        <p>Reusable UI components built with semantic HTML and zero dependencies.</p>
+        <footer class="card-footer">
+          <a href="#" aria-label="View Component Library repository">Source Code</a>
+        </footer>
+      </article>
     </section>
   </main>
   <script src="theme-toggle.js"></script>
 </body>
 </html>
-
